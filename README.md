@@ -18,7 +18,6 @@
 
 <a href="mailto:sakshi.pandey2223@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://linkedin.com/in/sakshi-pandey"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 
 </div>
 
@@ -26,9 +25,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00c6ff,100:0f2027&height=3&width=100%"/>
 
-<br/>
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Robot.png" width="35"/> System Overview
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=110&section=header&text=PROFESSIONAL%20SUMMARY&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=62" width="100%"/>
+</div>
 
 ```yaml
 engineer:
@@ -41,18 +40,22 @@ engineer:
     - Retrieval-Augmented Generation
   mission: >
     Architecting intelligent, autonomous systems that reason,
-    retrieve, and act — turning enterprise data into decisions
+    retrieve, and act, turning enterprise data into decisions
     at production scale.
-  status: "compiling the future, one agent at a time"
 ```
 
-An AI Engineer with **3+ years** at HCLTech, specializing in **Generative AI**, **Agentic AI systems**, and **Python-based development**. Proven expertise in building **multi-agent architectures**, **RAG pipelines**, and **intelligent automation** solutions at enterprise scale — backed by a strong foundation in infrastructure operations, server administration, and automation engineering for true end-to-end AI deployment.
+An AI Engineer with **3+ years** at HCLTech, specializing in **Generative AI**, **Agentic AI systems**, and **Python-based development**. Proven expertise in building **multi-agent architectures**, **RAG pipelines**, and **intelligent automation** solutions at enterprise scale, backed by a strong foundation in infrastructure operations, server administration, and automation engineering for true end-to-end AI deployment.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00c6ff,100:0f2027&height=3&width=100%"/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="32"/> Tech Arsenal
-
 <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=110&section=header&text=TECH%20ARSENAL&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=62" width="100%"/>
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,gcp,azure,git,postgres,linux,vscode,jira&theme=dark" />
+
+<br/><br/>
 
 **Generative AI / Agentic Systems**
 
@@ -99,7 +102,7 @@ An AI Engineer with **3+ years** at HCLTech, specializing in **Generative AI**, 
 |:--|:--|
 | Automation | Reducing manual effort through intelligent workflows |
 | System Design | Scalable, production-ready architectures |
-| ITIL | Incident, change & service management |
+| ITIL | Incident, change and service management |
 | Problem Solving | Root-cause analysis under production constraints |
 | Cross-functional Collaboration | Bridging AI, infra, and business teams |
 
@@ -108,16 +111,18 @@ An AI Engineer with **3+ years** at HCLTech, specializing in **Generative AI**, 
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00c6ff,100:0f2027&height=3&width=100%"/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Building%20Construction.png" width="32"/> Professional Timeline
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=110&section=header&text=PROFESSIONAL%20TIMELINE&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=62" width="100%"/>
+</div>
 
 ```
-┌───────────────────────────────────────────────────────────────────┐
-│  HCLTech  ·  Analyst — AI, Automation & Infrastructure             │
-│  Aug 2022 — Present  ·  Lucknow, India                              │
-└───────────────────────────────────────────────────────────────────┘
++-----------------------------------------------------------------+
+|  HCLTech  -  Analyst, AI, Automation & Infrastructure            |
+|  Aug 2022 - Present  -  Lucknow, India                            |
++-----------------------------------------------------------------+
 ```
 
-- Built **multi-agent architectures** for enterprise automation — intelligent task routing, knowledge retrieval, and decision-making pipelines
+- Built **multi-agent architectures** for enterprise automation, including intelligent task routing, knowledge retrieval, and decision-making pipelines
 - Developed **RAG-based knowledge systems** using LLM APIs, enabling semantic search across large-scale enterprise data
 - Built and deployed **Python-based AI pipelines** and **FastAPI services** for scalable production systems
 - Managed infrastructure, server administration, system monitoring, and deployments
@@ -126,7 +131,9 @@ An AI Engineer with **3+ years** at HCLTech, specializing in **Generative AI**, 
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00c6ff,100:0f2027&height=3&width=100%"/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Puzzle%20Piece.png" width="32"/> Flagship Projects
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=110&section=header&text=FLAGSHIP%20PROJECTS&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=62" width="100%"/>
+</div>
 
 <table align="center" width="100%">
 <tr>
@@ -159,18 +166,21 @@ Semantic search and retrieval system built across 10,000+ enterprise documents f
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00c6ff,100:0f2027&height=3&width=100%"/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="32"/> Education
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=110&section=header&text=EDUCATION&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=62" width="100%"/>
+</div>
 
 | Qualification | Institution | Duration |
 |:--|:--|:--|
-| B.Tech, Computer Science (Pursuing) | Indian Institute of Information Technology (IIIT), Kottayam | 2024 — Present |
+| B.Tech, Computer Science (Pursuing) | Indian Institute of Information Technology (IIIT), Kottayam | 2024 - Present |
 | Higher Secondary, Science with Computer Science | Sunbeam Academy, Varanasi | 2022 |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00c6ff,100:0f2027&height=3&width=100%"/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" width="32"/> Certifications & Achievements
-
 <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=110&section=header&text=CERTIFICATIONS%20%26%20ACHIEVEMENTS&fontSize=26&fontColor=ffffff&animation=fadeIn&fontAlignY=62" width="100%"/>
+
+<br/>
 
 <img src="https://img.shields.io/badge/Google_Cloud-Generative_AI_Certified-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/Microsoft_Azure-AI--900_Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
@@ -178,16 +188,19 @@ Semantic search and retrieval system built across 10,000+ enterprise documents f
 
 </div>
 
-- **Hackathon Winner** — AI Recruitment Agent (HCLTech)
+<br/>
+
+- **Hackathon Winner** - AI Recruitment Agent (HCLTech)
 - **Dual Certified** in Google Cloud Generative AI and Microsoft Azure AI
 - Delivered AI automation **reducing manual effort by 45%+**
 - Built multiple **production-grade Agentic AI systems**
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00c6ff,100:0f2027&height=3&width=100%"/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="32"/> GitHub Analytics
-
 <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=110&section=header&text=GITHUB%20ANALYTICS&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=62" width="100%"/>
+
+<br/>
 
 <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00c6ff&icon_color=00c6ff&text_color=c9d1d9&count_private=true" width="49%"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00c6ff&text_color=c9d1d9" width="30%"/>
@@ -204,27 +217,33 @@ Semantic search and retrieval system built across 10,000+ enterprise documents f
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00c6ff,100:0f2027&height=3&width=100%"/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Direct%20Hit.png" width="32"/> Current Focus
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=110&section=header&text=CURRENT%20FOCUS&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=62" width="100%"/>
 
-```
-[####################          ] Advanced Agentic AI Systems
-[######################        ] Multi-Agent Orchestration
-[##########################    ] Production-Grade RAG Pipelines
-[############################  ] AI-Driven Automation
-```
+<br/>
+
+<img src="https://progress-bar.dev/85/?title=Advanced%20Agentic%20AI%20Systems&width=500&color=00c6ff&title_width=260"/>
+<br/>
+<img src="https://progress-bar.dev/80/?title=Multi-Agent%20Orchestration&width=500&color=00c6ff&title_width=260"/>
+<br/>
+<img src="https://progress-bar.dev/90/?title=Production-Grade%20RAG%20Pipelines&width=500&color=00c6ff&title_width=260"/>
+<br/>
+<img src="https://progress-bar.dev/88/?title=AI-Driven%20Automation&width=500&color=00c6ff&title_width=260"/>
+
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00c6ff,100:0f2027&height=3&width=100%"/>
 
 <div align="center">
 
-## Let's Build Something Intelligent
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=130&section=header&text=LET'S%20BUILD%20SOMETHING%20INTELLIGENT&fontSize=24&fontColor=ffffff&animation=fadeIn&fontAlignY=62" width="100%"/>
 
 <a href="mailto:sakshi.pandey2223@gmail.com"><img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://linkedin.com/in/sakshi-pandey"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 <br/><br/>
 
-<img src="https://profile-counter.glitch.me/sakshi-pandey-github/count.svg" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=00c6ff&style=for-the-badge&label=PROFILE+VIEWS"/>
 
 <br/><br/>
 
