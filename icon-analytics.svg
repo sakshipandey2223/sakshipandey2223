@@ -1,0 +1,50 @@
+<svg width="1200" height="112" viewBox="0 0 1200 112" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#0d1526"/>
+    </linearGradient>
+    <linearGradient id="tg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="ug" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00c6ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="gl" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="1198" height="103" rx="14" fill="url(#pg)" stroke="#1c2942" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1198" height="103" rx="14" fill="none" stroke="#00c6ff" stroke-width="1" opacity="0.25"/>
+
+  <circle cx="58" cy="52" r="34" fill="#060912" stroke="#16233b" stroke-width="2"/>
+  <circle cx="58" cy="52" r="34" fill="none" stroke="url(#tg)" stroke-width="2" stroke-dasharray="14 10" opacity="0.85">
+    <animateTransform attributeName="transform" type="rotate" from="0 58 52" to="360 58 52" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <g filter="url(#gl)" stroke="#7ce9ff" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="42" y1="70" x2="42" y2="46"><animate attributeName="y1" values="70;70" dur="1s"/></line>
+    <line x1="58" y1="70" x2="58" y2="34"/>
+    <line x1="74" y1="70" x2="74" y2="54"/>
+    <line x1="34" y1="70" x2="82" y2="70" opacity="0.5"/>
+  </g>
+
+  <text x="112" y="46" font-family="'Segoe UI', Verdana, sans-serif" font-weight="700" font-size="25" letter-spacing="2.5" fill="url(#tg)">GITHUB ANALYTICS</text>
+  <text x="112" y="70" font-family="Consolas, monospace" font-size="12.5" letter-spacing="1.5" fill="#5c7ba0">DATA.STREAM // COMMITS, LANGS, STREAKS</text>
+
+  <rect x="112" y="82" width="0" height="3" rx="1.5" fill="url(#ug)">
+    <animate attributeName="width" from="0" to="1040" dur="1.6s" fill="freeze"/>
+  </rect>
+
+  <g stroke="#264063" stroke-width="1" opacity="0.7">
+    <line x1="900" y1="30" x2="1160" y2="30"/>
+    <line x1="900" y1="52" x2="1160" y2="52"/>
+    <line x1="900" y1="74" x2="1160" y2="74"/>
+  </g>
+  <circle cx="1160" cy="30" r="2.4" fill="#00e5ff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="900" cy="52" r="2.4" fill="#00e5ff"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="1160" cy="74" r="2.4" fill="#00e5ff"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+</svg>

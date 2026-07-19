@@ -1,0 +1,62 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b16"/>
+      <stop offset="100%" stop-color="#0d1526"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="16" fill="url(#bg4)" stroke="#1c2942" stroke-width="1.5"/>
+  
+  <text x="40" y="93" font-family="'Segoe UI', Verdana, sans-serif" font-size="15" font-weight="600" fill="#cfe9ff">Advanced Agentic AI Systems</text>
+  <rect x="340" y="70" width="780" height="34" rx="10" fill="#0b1224" stroke="#1c2942" stroke-width="1.5"/>
+  <rect x="340" y="70" width="0" height="34" rx="10" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="663.0" dur="1.8s" fill="freeze" begin="0.0s"/>
+  </rect>
+  <circle cx="340" cy="87.0" r="14.0" fill="#00e5ff" opacity="0">
+    <animate attributeName="cx" from="340" to="1003.0" dur="1.8s" fill="freeze" begin="0.0s"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.0s"/>
+  </circle>
+  <text x="1138" y="93" font-family="Consolas, monospace" font-size="14" font-weight="700" fill="#00e5ff" opacity="0">85%
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" fill="freeze" begin="1.6s"/>
+  </text>
+  <text x="40" y="153" font-family="'Segoe UI', Verdana, sans-serif" font-size="15" font-weight="600" fill="#cfe9ff">Multi-Agent Orchestration</text>
+  <rect x="340" y="130" width="780" height="34" rx="10" fill="#0b1224" stroke="#1c2942" stroke-width="1.5"/>
+  <rect x="340" y="130" width="0" height="34" rx="10" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="624.0" dur="1.8s" fill="freeze" begin="0.2s"/>
+  </rect>
+  <circle cx="340" cy="147.0" r="14.0" fill="#00e5ff" opacity="0">
+    <animate attributeName="cx" from="340" to="964.0" dur="1.8s" fill="freeze" begin="0.2s"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.2s"/>
+  </circle>
+  <text x="1138" y="153" font-family="Consolas, monospace" font-size="14" font-weight="700" fill="#00e5ff" opacity="0">80%
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" fill="freeze" begin="1.8s"/>
+  </text>
+  <text x="40" y="213" font-family="'Segoe UI', Verdana, sans-serif" font-size="15" font-weight="600" fill="#cfe9ff">Production-Grade RAG Pipelines</text>
+  <rect x="340" y="190" width="780" height="34" rx="10" fill="#0b1224" stroke="#1c2942" stroke-width="1.5"/>
+  <rect x="340" y="190" width="0" height="34" rx="10" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="702.0" dur="1.8s" fill="freeze" begin="0.4s"/>
+  </rect>
+  <circle cx="340" cy="207.0" r="14.0" fill="#00e5ff" opacity="0">
+    <animate attributeName="cx" from="340" to="1042.0" dur="1.8s" fill="freeze" begin="0.4s"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.4s"/>
+  </circle>
+  <text x="1138" y="213" font-family="Consolas, monospace" font-size="14" font-weight="700" fill="#00e5ff" opacity="0">90%
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" fill="freeze" begin="2.0s"/>
+  </text>
+  <text x="40" y="273" font-family="'Segoe UI', Verdana, sans-serif" font-size="15" font-weight="600" fill="#cfe9ff">AI-Driven Automation</text>
+  <rect x="340" y="250" width="780" height="34" rx="10" fill="#0b1224" stroke="#1c2942" stroke-width="1.5"/>
+  <rect x="340" y="250" width="0" height="34" rx="10" fill="url(#barGrad)">
+    <animate attributeName="width" from="0" to="686.4" dur="1.8s" fill="freeze" begin="0.6000000000000001s"/>
+  </rect>
+  <circle cx="340" cy="267.0" r="14.0" fill="#00e5ff" opacity="0">
+    <animate attributeName="cx" from="340" to="1026.4" dur="1.8s" fill="freeze" begin="0.6000000000000001s"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.6000000000000001s"/>
+  </circle>
+  <text x="1138" y="273" font-family="Consolas, monospace" font-size="14" font-weight="700" fill="#00e5ff" opacity="0">88%
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" fill="freeze" begin="2.2s"/>
+  </text>
+</svg>

@@ -1,0 +1,49 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="100%" stop-color="#0d1526"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="textGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow4" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="240" rx="18" fill="url(#bg5)" stroke="#1c2942" stroke-width="1.5"/>
+
+  <!-- sparse constellation -->
+  <g>
+    <circle cx="70" cy="50" r="2" fill="#00e5ff"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="60" r="2" fill="#a78bfa"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="130" cy="190" r="2" fill="#00e5ff"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="180" r="2" fill="#a78bfa"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- corner brackets -->
+  <g stroke="#00c6ff" stroke-width="2" fill="none" opacity="0.7">
+    <polyline points="34,26 22,26 22,60"/>
+    <polyline points="1166,26 1178,26 1178,60"/>
+    <polyline points="34,214 22,214 22,180"/>
+    <polyline points="1166,214 1178,214 1178,180"/>
+  </g>
+
+  <text x="600" y="98" text-anchor="middle" font-family="'Trebuchet MS', Verdana, sans-serif" font-weight="700" font-size="32" letter-spacing="1.5" fill="url(#textGrad2)" filter="url(#glow4)">LET&#8217;S BUILD SOMETHING INTELLIGENT</text>
+  <text x="600" y="130" text-anchor="middle" font-family="Consolas, monospace" font-size="13.5" letter-spacing="2" fill="#5c7ba0">OPEN TO COLLABORATIONS, IDEAS &amp; NEW OPPORTUNITIES</text>
+
+  <!-- animated border sweep -->
+  <rect x="140" y="160" width="920" height="3" fill="url(#borderGrad)">
+    <animate attributeName="x" values="-780;140;1060" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="205" text-anchor="middle" font-family="Consolas, monospace" font-size="12" letter-spacing="3" fill="#3d5a80">SAKSHI PANDEY &#8226; AI ENGINEER &#8226; LUCKNOW, INDIA</text>
+</svg>

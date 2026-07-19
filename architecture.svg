@@ -1,0 +1,90 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b16"/>
+      <stop offset="100%" stop-color="#0d1526"/>
+    </linearGradient>
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="glow2" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="560" rx="18" fill="url(#bg2)" stroke="#1c2942" stroke-width="1.5"/>
+
+  <text x="600" y="46" text-anchor="middle" font-family="'Segoe UI', Verdana, sans-serif" font-weight="700" font-size="22" letter-spacing="3" fill="#e7f6ff">AGENTIC AI SYSTEM ARCHITECTURE</text>
+  <text x="600" y="68" text-anchor="middle" font-family="Consolas, monospace" font-size="12" letter-spacing="2" fill="#5c7ba0">HOW THE STACK CONNECTS, END TO END</text>
+
+  <!-- connection lines: core to each node -->
+  <g stroke="#00c6ff" stroke-width="1.6" fill="none" opacity="0.55">
+    <path d="M600,280 L230,140" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2.2s" repeatCount="indefinite"/></path>
+    <path d="M600,280 L980,140" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2.5s" repeatCount="indefinite"/></path>
+    <path d="M600,280 L150,300" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2.8s" repeatCount="indefinite"/></path>
+    <path d="M600,280 L1050,300" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2.1s" repeatCount="indefinite"/></path>
+    <path d="M600,280 L260,440" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2.6s" repeatCount="indefinite"/></path>
+    <path d="M600,280 L600,470" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2.3s" repeatCount="indefinite"/></path>
+    <path d="M600,280 L940,440" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2.7s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- core node -->
+  <g filter="url(#glow2)">
+    <circle cx="600" cy="280" r="58" fill="#080d18" stroke="url(#coreGrad)" stroke-width="3"/>
+    <circle cx="600" cy="280" r="70" fill="none" stroke="#00c6ff" stroke-width="1" opacity="0.4" stroke-dasharray="3 8">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 280" to="360 600 280" dur="14s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="600" y="275" text-anchor="middle" font-family="'Segoe UI', Verdana, sans-serif" font-weight="700" font-size="15" fill="#e7f6ff">AGENTIC</text>
+  <text x="600" y="293" text-anchor="middle" font-family="'Segoe UI', Verdana, sans-serif" font-weight="700" font-size="15" fill="#e7f6ff">AI CORE</text>
+
+  <!-- surrounding nodes -->
+  <!-- node template: rect + label + sub -->
+  <g font-family="'Segoe UI', Verdana, sans-serif">
+    <!-- LangChain / LangGraph -->
+    <rect x="150" y="108" width="160" height="62" rx="10" fill="#0b1224" stroke="#00c6ff" stroke-width="1.4"/>
+    <text x="230" y="134" text-anchor="middle" font-size="14" font-weight="700" fill="#7ce9ff">LangChain</text>
+    <text x="230" y="153" text-anchor="middle" font-size="12" fill="#5c7ba0">LangGraph orchestration</text>
+    <circle cx="230" cy="170" r="3" fill="#00e5ff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/></circle>
+
+    <!-- Gemini / LLM -->
+    <rect x="900" y="108" width="160" height="62" rx="10" fill="#0b1224" stroke="#a78bfa" stroke-width="1.4"/>
+    <text x="980" y="134" text-anchor="middle" font-size="14" font-weight="700" fill="#c7b3ff">Gemini API</text>
+    <text x="980" y="153" text-anchor="middle" font-size="12" fill="#5c7ba0">Large language models</text>
+    <circle cx="980" cy="170" r="3" fill="#a78bfa"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite"/></circle>
+
+    <!-- RAG -->
+    <rect x="70" y="268" width="160" height="62" rx="10" fill="#0b1224" stroke="#00c6ff" stroke-width="1.4"/>
+    <text x="150" y="294" text-anchor="middle" font-size="14" font-weight="700" fill="#7ce9ff">RAG Layer</text>
+    <text x="150" y="313" text-anchor="middle" font-size="12" fill="#5c7ba0">Retrieval augmentation</text>
+    <circle cx="150" cy="330" r="3" fill="#00e5ff"><animate attributeName="opacity" values="1;0.2;1" dur="2.1s" repeatCount="indefinite"/></circle>
+
+    <!-- FastAPI -->
+    <rect x="970" y="268" width="160" height="62" rx="10" fill="#0b1224" stroke="#00c6ff" stroke-width="1.4"/>
+    <text x="1050" y="294" text-anchor="middle" font-size="14" font-weight="700" fill="#7ce9ff">FastAPI</text>
+    <text x="1050" y="313" text-anchor="middle" font-size="12" fill="#5c7ba0">Production services</text>
+    <circle cx="1050" cy="330" r="3" fill="#00e5ff"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.9s" repeatCount="indefinite"/></circle>
+
+    <!-- Vertex AI -->
+    <rect x="180" y="408" width="160" height="62" rx="10" fill="#0b1224" stroke="#a78bfa" stroke-width="1.4"/>
+    <text x="260" y="434" text-anchor="middle" font-size="14" font-weight="700" fill="#c7b3ff">Vertex AI</text>
+    <text x="260" y="453" text-anchor="middle" font-size="12" fill="#5c7ba0">Google Cloud ML</text>
+    <circle cx="260" cy="470" r="3" fill="#a78bfa"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+
+    <!-- Azure OpenAI -->
+    <rect x="520" y="408" width="160" height="62" rx="10" fill="#0b1224" stroke="#a78bfa" stroke-width="1.4"/>
+    <text x="600" y="434" text-anchor="middle" font-size="14" font-weight="700" fill="#c7b3ff">Azure OpenAI</text>
+    <text x="600" y="453" text-anchor="middle" font-size="12" fill="#5c7ba0">Enterprise inference</text>
+    <circle cx="600" cy="470" r="3" fill="#a78bfa"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/></circle>
+
+    <!-- Vector search -->
+    <rect x="860" y="408" width="160" height="62" rx="10" fill="#0b1224" stroke="#00c6ff" stroke-width="1.4"/>
+    <text x="940" y="434" text-anchor="middle" font-size="14" font-weight="700" fill="#7ce9ff">Vector Store</text>
+    <text x="940" y="453" text-anchor="middle" font-size="12" fill="#5c7ba0">Semantic search index</text>
+    <circle cx="940" cy="470" r="3" fill="#00e5ff"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <text x="600" y="530" text-anchor="middle" font-family="Consolas, monospace" font-size="12" letter-spacing="2" fill="#3d5a80">INPUT &#8594; RETRIEVAL &#8594; REASONING &#8594; ACTION &#8594; RESPONSE</text>
+</svg>

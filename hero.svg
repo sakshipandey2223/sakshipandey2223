@@ -1,0 +1,112 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060912"/>
+      <stop offset="45%" stop-color="#0d1526"/>
+      <stop offset="100%" stop-color="#060912"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="55%" stop-color="#7ce9ff"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00c6ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bgGrad)"/>
+
+  <!-- circuit grid -->
+  <g stroke="#1c2942" stroke-width="1" opacity="0.55">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="220" x2="1200" y2="220"/>
+    <line x1="0" y1="280" x2="1200" y2="280"/>
+    <line x1="120" y1="0" x2="120" y2="340"/>
+    <line x1="340" y1="0" x2="340" y2="340"/>
+    <line x1="860" y1="0" x2="860" y2="340"/>
+    <line x1="1080" y1="0" x2="1080" y2="340"/>
+  </g>
+
+  <!-- drifting data lines -->
+  <g stroke="#00c6ff" stroke-width="1.4" fill="none" opacity="0.5">
+    <path d="M -100 40 L 1300 40" stroke-dasharray="2 10">
+      <animate attributeName="stroke-dashoffset" from="0" to="-240" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M -100 300 L 1300 300" stroke-dasharray="2 14">
+      <animate attributeName="stroke-dashoffset" from="0" to="260" dur="8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- twinkling nodes -->
+  <g>
+    <circle cx="90" cy="90" r="3" fill="url(#nodeGlow)"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="260" r="2.5" fill="url(#nodeGlow)"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="70" r="3" fill="url(#nodeGlow)"><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="250" r="2.5" fill="url(#nodeGlow)"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="290" r="2" fill="url(#nodeGlow)"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="45" r="2" fill="url(#nodeGlow)"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- corner HUD brackets -->
+  <g stroke="#00c6ff" stroke-width="2" fill="none" opacity="0.75">
+    <polyline points="30,20 20,20 20,50"><animate attributeName="opacity" values="0.35;0.9;0.35" dur="3s" repeatCount="indefinite"/></polyline>
+    <polyline points="1170,20 1180,20 1180,50"><animate attributeName="opacity" values="0.35;0.9;0.35" dur="3s" repeatCount="indefinite"/></polyline>
+    <polyline points="30,320 20,320 20,290"><animate attributeName="opacity" values="0.35;0.9;0.35" dur="3s" repeatCount="indefinite"/></polyline>
+    <polyline points="1170,320 1180,320 1180,290"><animate attributeName="opacity" values="0.35;0.9;0.35" dur="3s" repeatCount="indefinite"/></polyline>
+  </g>
+
+  <!-- status chip -->
+  <g transform="translate(20,20)" font-family="Consolas, monospace" font-size="12" fill="#7ce9ff">
+    <circle cx="6" cy="-4" r="4" fill="#00ff9c"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="18" y="0" letter-spacing="2">SYSTEM ONLINE</text>
+  </g>
+  <g font-family="Consolas, monospace" font-size="12" fill="#5c7ba0">
+    <text x="1180" y="36" text-anchor="end" letter-spacing="1">agentic-ai::sakshi-pandey</text>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="168" text-anchor="middle" font-family="'Trebuchet MS', Verdana, sans-serif" font-weight="700" font-size="72" letter-spacing="6" fill="url(#titleGrad)" filter="url(#softGlow)">SAKSHI PANDEY</text>
+
+  <!-- shine sweep across title -->
+  <clipPath id="titleClip">
+    <text x="600" y="168" text-anchor="middle" font-family="'Trebuchet MS', Verdana, sans-serif" font-weight="700" font-size="72" letter-spacing="6">SAKSHI PANDEY</text>
+  </clipPath>
+  <rect x="-200" y="90" width="140" height="110" fill="#ffffff" opacity="0.35" clip-path="url(#titleClip)">
+    <animate attributeName="x" from="-200" to="1000" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- subtitle typing bar -->
+  <g>
+    <clipPath id="subClip">
+      <rect x="0" y="200" width="0" height="40">
+        <animate attributeName="width" from="0" to="820" dur="2.6s" fill="freeze" begin="0.4s"/>
+      </rect>
+    </clipPath>
+    <text x="600" y="228" text-anchor="middle" clip-path="url(#subClip)" font-family="Consolas, monospace" font-size="21" letter-spacing="3" fill="#9fe8ff">AI ENGINEER // GENERATIVE AI // AGENTIC AI // PYTHON DEVELOPER</text>
+    <rect x="1010" y="207" width="10" height="24" fill="#00e5ff" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.5;0.52;1" dur="1s" begin="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- animated gradient wave base -->
+  <rect x="0" y="300" width="1200" height="6" fill="url(#waveGrad)">
+    <animate attributeName="x" values="-300;0;-300" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="320" text-anchor="middle" font-family="Consolas, monospace" font-size="12" letter-spacing="4" fill="#3d5a80">LUCKNOW, INDIA &#8226; HCLTECH &#8226; 3+ YEARS</text>
+</svg>
